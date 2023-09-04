@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "write filename"
+read txt
+
+
+touch ${txt}
+echo "#!/bin/bash " > ${txt}
+
+
+
+vi ${txt}
+
+
+chmod u+x ${txt}
