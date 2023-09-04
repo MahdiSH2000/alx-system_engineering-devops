@@ -13,3 +13,9 @@ vi ${txt}
 
 
 chmod u+x ${txt}
+
+
+echo "write directory name"
+read dir
+
+mv ${txt} ${dir}/
